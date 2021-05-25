@@ -12,13 +12,13 @@ public class apiController {
     @RequestMapping(value = "/api/test", method = RequestMethod.GET)
     @ResponseStatus(value = HttpStatus.OK)
     public String getApiTest(){
-        return "{\"result\":\"HelloWorld Get\"}";
+        return "{\"result\":\"Chan HelloWorld Get\"}";
     }
 
     @RequestMapping(value = "/api/test", method = RequestMethod.POST)
     @ResponseStatus(value = HttpStatus.OK)
     public String getApiTest2(){
-        return "{\"result\":\"HelloWorld Post\"}";
+        return "{\"result\":\"Chan HelloWorld Post\"}";
     }
 
 }
